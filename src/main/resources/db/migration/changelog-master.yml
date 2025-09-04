@@ -1,0 +1,6 @@
+databaseChangeLog:
+  - include:
+      file: classpath:db/migration/001-init-users-roles.yml
+
+  - include:
+      file: classpath:db/migration/002-insert-roles.yml
